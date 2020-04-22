@@ -18,4 +18,75 @@ a:hover {
 
 body {
   font-size: 16px;
-  font-family: 'Karla', sans-serif; }
+  font-family: 'Karla', sans-serif;
+  background-color: #e5eff5; }
+
+main {
+  margin: 5em 1.5em;
+  box-shadow: 2px 7px 25px -5px #c1d7e6; }
+
+.join {
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1.8em; }
+  .join h1 {
+    font-size: 20px;
+    color: #2ab2af;
+    font-weight: 700;
+    margin-top: 0.5em;
+    margin-bottom: 1em; }
+  .join h2 {
+    color: #c0df34;
+    font-weight: 700;
+    margin-bottom: 1em; }
+  .join p {
+    color: #98a6bd;
+    line-height: 1.8;
+    font-size: 14px; }
+
+.subscription {
+  padding: 1.8em;
+  background-color: #2ab2af;
+  color: #e5eff5; }
+  .subscription h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em; }
+  .subscription h3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #e5eff5;
+    margin-bottom: 0.5em; }
+    .subscription h3 span {
+      color: rgba(229, 239, 245, 0.8);
+      font-size: 18px;
+      font-weight: 400; }
+  .subscription p {
+    margin-bottom: 2em; }
+  .subscription button {
+    background-color: #c0df34;
+    padding: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    box-shadow: 2px 7px 25px 0px #22918f; }
+
+.whyUs {
+  background-color: #4ABEBD;
+  color: #e5eff5;
+  padding: 1.8em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  .whyUs h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em; }
+  .whyUs li {
+    font-size: 15px;
+    color: rgba(229, 239, 245, 0.8);
+    padding: 0.1em 0; }
+
+footer {
+  margin: 5em 2em 1em 2em; }
