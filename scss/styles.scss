@@ -47,8 +47,7 @@ main {
   box-shadow: 2px 7px 25px -5px darken($lightGray, 10%);
 
   @media (min-width: 700px) {
-    vertical-align: middle;
-    margin: 14em auto;
+    margin: 12em auto;
     width: 650px;
     display: grid;
     grid-template-columns: 1fr 1fr;
