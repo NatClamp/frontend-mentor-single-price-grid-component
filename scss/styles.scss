@@ -1,0 +1,30 @@
+// Variables
+// // Widths
+
+// // Colours
+// // // Primary
+// // // Neutral
+
+// Reset
+* {
+  box-sizing: border-box;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+    outline: 0;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+// Styles
