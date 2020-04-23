@@ -9,12 +9,9 @@
   font: inherit;
   vertical-align: baseline; }
 
-:focus {
-  outline: 0; }
-
-a:active,
-a:hover {
-  outline: 0; }
+button:hover {
+  cursor: pointer;
+  background-color: #cee660; }
 
 body {
   font-size: 16px;
@@ -64,7 +61,7 @@ main {
 .subscription {
   padding: 1.8em;
   background-color: #2ab2af;
-  color: #e5eff5; }
+  color: #fff; }
   @media (min-width: 700px) {
     .subscription {
       grid-column: 1 / span 1;
@@ -96,7 +93,7 @@ main {
 
 .whyUs {
   background-color: #4ABEBD;
-  color: #e5eff5;
+  color: #fff;
   padding: 1.8em;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
@@ -111,7 +108,7 @@ main {
     margin-bottom: 1em; }
   .whyUs li {
     font-size: 15px;
-    color: rgba(229, 239, 245, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     padding: 0.1em 0; }
 
 footer {
