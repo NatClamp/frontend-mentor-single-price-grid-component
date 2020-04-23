@@ -9,10 +9,6 @@
   font: inherit;
   vertical-align: baseline; }
 
-button:hover {
-  cursor: pointer;
-  background-color: #cee660; }
-
 body {
   font-size: 16px;
   font-family: 'Karla', sans-serif;
@@ -90,6 +86,9 @@ main {
     color: #fff;
     font-size: 17px;
     box-shadow: 2px 7px 25px 0px #22918f; }
+    .subscription button:hover {
+      cursor: pointer;
+      background-color: #cee660; }
 
 .whyUs {
   background-color: #4ABEBD;

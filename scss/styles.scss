@@ -25,11 +25,6 @@ $grayishBlue: hsl(218, 22%, 67%);
 	vertical-align: baseline;
 }
 
-button:hover {
-  cursor: pointer;
-  background-color: lighten($brightYellow, 10%);
-}
-
 // Styles
 body {
   font-size: 16px;
@@ -130,6 +125,11 @@ main {
     color: #fff;
     font-size: 17px;
     box-shadow: 2px 7px 25px 0px darken($cyan, 8%);
+
+  &:hover {
+    cursor: pointer;
+    background-color: lighten($brightYellow, 10%);
+}
   }
 }
 
